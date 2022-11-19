@@ -1,5 +1,5 @@
 let button;
-var on = false;
+
 
 function setup() {
   createCanvas(1000, 1000);
