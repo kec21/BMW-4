@@ -17,13 +17,25 @@ function doctorClicked() {
   button1.mousePressed(labwork);
   let button2 = createButton("YOUR DOCTOR HAS REFERRED YOU TO A SPECIALIST");
   button2.id("specialist2Button");
+  button2.mousePressed(labwork2);
   let button3 = createButton("YOUR DOCTOR HAS REFERRED YOU TO A SPECIALIST");
   button3.id("specialist3Button");
+  button3.mousePressed(labwork3);
 }
 
 function labwork() {
   let button4 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
   button4.id("labworkButton");
+}
+
+function labwork2() {
+  let button5 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
+  button5.id("labwork2Button");
+}
+
+function labwork3() {
+  let button6 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
+  button6.id("labwork3Button");
 }
 
 

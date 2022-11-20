@@ -36,3 +36,15 @@ canvas {
   left: 600px;
   top: 400px;
 }
+
+#labwork2Button {
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+
+#labwork3Button {
+  position: absolute;
+  left: 120px;
+  top: 340px;
+}
