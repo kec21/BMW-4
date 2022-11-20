@@ -6,3 +6,27 @@ html, body {
 canvas {
   display: block;
 }
+
+#doctorButton {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+#specialist1Button {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+#specialist2Button {
+  position: absolute;
+  left: 600px;
+  top: 800px;
+}
+
+#specialist3Button {
+  position: absolute;
+  left: 100px;
+  top: 500px;
+}
