@@ -14,10 +14,16 @@ function draw() {
 function doctorClicked() {
   let button1 = createButton("YOUR DOCTOR HAS REFERRED YOU TO A SPECIALIST");
   button1.id("specialist1Button");
+  button1.mousePressed(labwork);
   let button2 = createButton("YOUR DOCTOR HAS REFERRED YOU TO A SPECIALIST");
   button2.id("specialist2Button");
   let button3 = createButton("YOUR DOCTOR HAS REFERRED YOU TO A SPECIALIST");
   button3.id("specialist3Button");
+}
+
+function labwork() {
+  let button4 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
+  button4.id("labworkButton");
 }
 
 

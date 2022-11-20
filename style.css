@@ -30,3 +30,9 @@ canvas {
   left: 100px;
   top: 500px;
 }
+
+#labworkButton {
+  position: absolute;
+  left: 600px;
+  top: 400px;
+}
