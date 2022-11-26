@@ -1,4 +1,6 @@
 
+
+
 function setup() {
   createCanvas(1000, 1000);
   background(0);
@@ -26,16 +28,34 @@ function doctorClicked() {
 function labwork() {
   let button4 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
   button4.id("labworkButton");
+  button4.mousePressed(scan1);
 }
 
 function labwork2() {
   let button5 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
   button5.id("labwork2Button");
+  button5.mousPressed(scan2);
 }
 
 function labwork3() {
   let button6 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
   button6.id("labwork3Button");
+  button6.mousePressed(scan3);
+}
+
+function scan1() {
+  let button7 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
+  button7.id("scan1Button");
+}
+
+function scan2() {
+  let button8 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
+  button8.id("scan2Button");
+}
+
+function scan3() {
+  let button9 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
+  button9.id("scan3Button");
 }
 
 
