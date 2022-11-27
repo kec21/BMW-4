@@ -82,7 +82,15 @@ function normal3() {
 function endlesscycle1() {
   let button13 = createButton("GO BACK TO THE DOCTOR AGAIN AND START THE PROCESS OVER");
   button13.id("endlesscycle1");
-  button13.mousePressed(doctoragain);
+  button13.mousePressed(resetSketch);
+}
+
+function resetSketch () {
+  createCanvas(1000, 1000);
+  background(255);
+  let button = createButton('GO TO THE DOCTOR');
+  button.id("doctorButton");
+  button.mousePressed(doctorClicked);
 }
 
 function endlesscycle2() {
@@ -94,7 +102,7 @@ function endlesscycle2() {
 function endlesscycle3() {
   let button15 = createButton("");
   button15.id("endlesscycle3");
-  button15.mousePressed()
+  button15.mousePressed();
 }
 
 
