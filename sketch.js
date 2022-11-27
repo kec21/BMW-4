@@ -10,7 +10,6 @@ function setup() {
 }
 function draw() {
   background(255);
-
 }
 
 function doctorClicked() {
@@ -24,6 +23,7 @@ function doctorClicked() {
   button3.id("specialist3Button");
   button3.mousePressed(labwork3);
 }
+
 
 function labwork() {
   let button4 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
@@ -64,19 +64,37 @@ function scan3() {
 function normal1() {
   let button10 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
   button10.id("normal1");
-  button10.mousePressed();
+  button10.mousePressed(endlesscycle1);
 }
 
 function normal2() {
   let button11 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
   button11.id("normal2");
-  button11.mousePressed();
+  button11.mousePressed(endlesscycle2);
 }
 
 function normal3() {
   let button12 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
   button12.id("normal3");
-  button12.mousePressed();
+  button12.mousePressed(endlesscycle3);
+}
+
+function endlesscycle1() {
+  let button13 = createButton("GO BACK TO THE DOCTOR AGAIN AND START THE PROCESS OVER");
+  button13.id("endlesscycle1");
+  button13.mousePressed(doctoragain);
+}
+
+function endlesscycle2() {
+  let button14 = createButton("EXIT");
+  button14.id("endlesscycle2");
+  button14.mousePressed();
+}
+
+function endlesscycle3() {
+  let button15 = createButton("");
+  button15.id("endlesscycle3");
+  button15.mousePressed()
 }
 
 
