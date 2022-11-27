@@ -1,6 +1,4 @@
 
-
-
 function setup() {
   createCanvas(1000, 1000);
   background(255);
@@ -62,21 +60,21 @@ function scan3() {
 }
 
 function normal1() {
-  let button10 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
+  let button10 = createButton("YOUR SCAN WAS INCONCLUSIVE, GO BACK TO THE DOCTOR");
   button10.id("normal1");
   button10.mousePressed(endlesscycle1);
 }
 
 function normal2() {
-  let button11 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
+  let button11 = createButton("YOUR SCAN WAS NORMAL, YOU ARE HEALTHY");
   button11.id("normal2");
-  button11.mousePressed(endlesscycle2);
+  button11.mousePressed(endlesscycle3);
 }
 
 function normal3() {
   let button12 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
   button12.id("normal3");
-  button12.mousePressed(endlesscycle3);
+  button12.mousePressed(resetSketch);
 }
 
 function endlesscycle1() {
@@ -93,14 +91,8 @@ function resetSketch () {
   button.mousePressed(doctorClicked);
 }
 
-function endlesscycle2() {
-  let button14 = createButton("EXIT");
-  button14.id("endlesscycle2");
-  button14.mousePressed();
-}
-
 function endlesscycle3() {
-  let button15 = createButton("");
+  let button15 = createButton("EXIT");
   button15.id("endlesscycle3");
   button15.mousePressed();
 }
