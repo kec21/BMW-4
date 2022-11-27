@@ -11,40 +11,89 @@ canvas {
   position: absolute;
   left: 100px;
   top: 200px;
+  background-color:palegoldenrod;
 }
 
 #specialist1Button {
   position: absolute;
   left: 400px;
   top: 200px;
+  background-color:gold;
 }
 
 #specialist2Button {
   position: absolute;
   left: 600px;
   top: 800px;
+  background-color:gold;
 }
 
 #specialist3Button {
   position: absolute;
   left: 100px;
   top: 500px;
+  background-color:gold;
 }
 
 #labworkButton {
   position: absolute;
   left: 600px;
   top: 400px;
+  background-color:orange;
 }
 
 #labwork2Button {
   position: absolute;
   left: 50px;
   top: 90px;
+  background-color:orange;
 }
 
 #labwork3Button {
   position: absolute;
   left: 120px;
   top: 340px;
+  background-color:orange;
+}
+
+#scan1Button {
+  position: absolute;
+  left: 170px;
+  top: 445px;
+  background-color:rgb(238, 115, 21);
+}
+
+#scan2Button {
+  position: absolute;
+  left: 600px;
+  top: 300px;
+  background-color:rgb(238, 115, 21);
+}
+
+#scan3Button {
+  position: absolute;
+  left: 700px;
+  top: 190px;
+  background-color:rgb(238, 115, 21);
+}
+
+#normal1 {
+  position: absolute;
+  left: 1000px;
+  top: 950px;
+  background-color:rgb(222, 52, 22);
+}
+
+#normal2 {
+  position: absolute;
+  left: 1200px;
+  top: 500px;
+  background-color:rgb(222, 52, 22);
+}
+
+#normal3 {
+  position: absolute;
+  left: 12px;
+  top: 880px;
+  background-color:rgb(222, 52, 22);
 }

@@ -3,13 +3,13 @@
 
 function setup() {
   createCanvas(1000, 1000);
-  background(0);
+  background(255);
   let button = createButton('GO TO THE DOCTOR');
   button.id("doctorButton");
   button.mousePressed(doctorClicked);
 }
 function draw() {
-  background(220);
+  background(255);
 
 }
 
@@ -34,7 +34,7 @@ function labwork() {
 function labwork2() {
   let button5 = createButton("YOUR SPECIALIST HAS ORDERED LABWORK");
   button5.id("labwork2Button");
-  button5.mousPressed(scan2);
+  button5.mousePressed(scan2);
 }
 
 function labwork3() {
@@ -46,16 +46,37 @@ function labwork3() {
 function scan1() {
   let button7 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
   button7.id("scan1Button");
+  button7.mousePressed(normal1);
 }
 
 function scan2() {
   let button8 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
   button8.id("scan2Button");
+  button8.mousePressed(normal2);
 }
 
 function scan3() {
   let button9 = createButton("YOUR LABS ARE NORMAL, YOUR SPECIALIST HAS ORDERED A SCAN");
   button9.id("scan3Button");
+  button9.mousePressed(normal3);
+}
+
+function normal1() {
+  let button10 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
+  button10.id("normal1");
+  button10.mousePressed();
+}
+
+function normal2() {
+  let button11 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
+  button11.id("normal2");
+  button11.mousePressed();
+}
+
+function normal3() {
+  let button12 = createButton("YOUR SCAN WAS NORMAL, GO BACK TO THE DOCTOR");
+  button12.id("normal3");
+  button12.mousePressed();
 }
 
 
